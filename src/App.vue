@@ -1,5 +1,3 @@
-//改
-
 <template>
   <Container ref="container" />
 </template>
@@ -14,7 +12,7 @@ provide('objm', props.objm);
 
 const container = ref<HTMLDivElement>();
 
-// 将 URL 提取为常量
+// 将 URL 提取为常量wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
 const TERRAIN_LAYER_URL = 'http://114.242.26.126:6003/terrain/globe/layer.json';
 
 onMounted(() => {
