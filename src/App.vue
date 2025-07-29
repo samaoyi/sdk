@@ -17,7 +17,7 @@ import * as Cesium from 'cesium';
 const props = withDefaults(defineProps<{ objm: ESObjectsManager }>(), {});
 const container = ref<HTMLDivElement>();
 
-HEAD 
+
 // 将 URL 提取为常量wwww
 const TERRAIN_LAYER_URL = 'http://114.242.26.126:6003/terrain/globe/layer.json';
 let viewer: any = null;
@@ -27,7 +27,7 @@ let positions: Cesium.Cartesian3[] = [];
 let height: number = 0;
 let maxHeight: number = 0;
 let speed: number = 0;
->>>>>>> 8dd3986ac24b3e9e61b1de89edd6d0dcb647a122
+
 
 onMounted(() => {
   const dom = document.getElementById('cesiumContainer') as HTMLDivElement;
